@@ -41,7 +41,7 @@ jobs:
         run: go install honnef.co/go/tools/cmd/staticcheck@latest && staticcheck ./...
 
   security:
-    name: Security
+    name: gosec
     runs-on: ubuntu-latest
 
     steps:
